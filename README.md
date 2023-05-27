@@ -35,8 +35,3 @@ El resultado debe ser mostrado en la pantalla.
 * Se importaron iconos de https://fontawesome.com/
 
 * La imagen que oculta el output de salida de texto se importó de https://unsplash.com/es
-
-# ✔️ Resultado:
-![Encriptador](/imagenes/Resultado.png)
-
-Proyecto realizado por Felix N. Morales - <orangecat.code/>

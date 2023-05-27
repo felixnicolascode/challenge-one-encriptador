@@ -1,0 +1,78 @@
+<!--https://github.com/orangecatcode | Felix N. Morales | Alura Latam | Edición #5: Challenge ONE-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Challenge ONE</title>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="estilos.css">
+	<script src="https://kit.fontawesome.com/6af583fe8c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<div id="particles-js"></div>
+
+	<header>
+		<div class="menu">
+			<div class="contenedor">
+				<div class="logo">
+					<img src="Imagenes/Logo.png" alt="">
+					<p class="nombre">Felix N. Morales</p>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="https://github.com/orangecatcode" target="_blank" title="GitHub"><i
+									class="fa-brands fa-github fa-2xl"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/felix-n-morales/" target="_blank" title="LinkedIn"><i
+									class="fa-brands fa-linkedin fa-2xl"></i></a></li>
+						<li><a href="#"><i class="fa-solid fa-user-pen fa-2xl" title="Sobre mi"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="texto">
+		<h2>Edición #5: Challenge ONE</h2>
+		<br>
+		<p>Encriptador de texto</p>
+	</div>
+
+	<div class="principal contenedor">
+		<main>
+			<section class="seccion1">
+				<textarea class="input" placeholder=" Ingrese el texto aqui: "></textarea>
+				<div>
+					<h4 class="info">Solo letras minisculas y sin acento</h4>
+				</div>
+				<div class="contenedor-botones-input">
+					<button class="btn-encriptar" type="button" onclick="btnEncriptar()">Encriptar</button>
+					<button class="btn-desencriptar" type="button" onclick="btnDesencriptar()">Desencriptar</button>
+				</div>
+			</section>
+			<section class="seccion2">
+				<div class="salida">
+					<textarea class="output"></textarea>
+				</div>
+				<div class="contenedor-botones-output">
+					<button class="btn-copiar" type="button" onclick="pegar()">Copy&Paste</button>
+				</div>
+			</section>
+		</main>
+	</div>
+	<br>
+	<footer>
+		<p class="autor">© Felix N. Morales para Alura Latam</p>
+	</footer>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="particles.js"></script>
+	<script src="particulas.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
